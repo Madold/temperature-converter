@@ -1,0 +1,22 @@
+// Mobile devices
+@media  (max-width: 740px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        padding: 10px 20px;
+
+        .ilustration {
+            width: 60%;
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .grid-container {
+        padding: 10px 0;
+
+        .ilustration {
+            width: 200px;
+        }
+    }
+}

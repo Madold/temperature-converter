@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Temperature calculator</title>
+</head>
+
+<body>
+
+    <h1 class="title">Convertidor de temperatura</h1>
+    <main class="grid-container">
+        <form class="form">
+            <select id="temperature-input" class="form__select">
+                <option>Grados Fahrenheit</option>
+                <option>Grados Celsius</option>
+                <option>Grados Kelvin</option>
+            </select>
+    
+            <input type="number" class="input" id="input">
+    
+            <select id="temperature-output" class="form__select">
+                <option>Grados Fahrenheit</option>
+                <option>Grados Celsius</option>
+                <option>Grados Kelvin</option>
+            </select>
+    
+            <input type="number" class="input" id="output" readonly>
+    
+            <input type="submit" value="Convertir" id="convert" class="cta">
+        </form>
+
+        <img src="assets/img/ilustration.svg" class="ilustration">
+    </main>
+    <p class="atribution">Coded by: <strong>Marco Portacio 👨‍💻</strong></p>
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
